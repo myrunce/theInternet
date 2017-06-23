@@ -12,8 +12,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40pt;
     display: inline-block;
-    /*position: relative;
-    bottom: 20px;*/
     right: 5px;
     margin-left: 100px;
 }
@@ -41,8 +39,33 @@ span.blue{
 }
 #internetsidebar{
     width:250px;
-    height:300px;
-    display: inline-block
+    height:auto;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+span.red{
+    color: red;
+}
+#internetsidebar form input{
+    width: 250px;
+    height: 50px;
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: 14pt;
+    border-radius: 10px;
+    font-weight: bold;
+}
+input.watch{
+    background-color: #22659e;
+    margin-bottom: 3px;
+}
+input.more{
+    background-color: #ef7600;
+}
+p.question{
+font-size: 16pt;
 }
 #header3{
     width: 680px;
@@ -50,7 +73,7 @@ span.blue{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    bottom: 327px;
+    bottom: 680px;
     margin-left: 320px;
 }
 #body{
@@ -59,21 +82,128 @@ span.blue{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    bottom: 327px;
+    bottom: 680px;
     margin-left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#body h1{
+#body h2{
+    color: #22659e
+}
+.infobox h2{
+    color: #22659e
+}
+#body li{
+    padding-right: 5px;
+}
+#body h5{
     height:2px;
     background: black;
     margin-top: 0px;
 }
 #advertisement{
-    width:250px
+    width:240px;
+    height: 400px;
+    background-image: url("ad_background.png");
+    padding-top: 0px;
+    text-align: center;
+    padding: 5px;
 }
 #advertisement h5{
-    height: 1px;
+    position: relative;
+    bottom: 20px;
+    height: 2px;
     background-color: black;
     margin-top: 0px;
+    margin-bottom: 10px;
     vertical-align: top;
 }
-{}
+#advertisement p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+}
+#advertisement form input{
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00c2df;
+    font-size: 16pt;
+}
+p.dns{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 
+}
+img.home{
+    margin-top:8px;
+    vertical-align: top;
+}
+img.phone{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.rightinfo{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+p.rightinfo{
+    display: block;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+span.phone{
+    margin-top:0px;
+    margin-bottom: 0px;
+    color:#00bfdf;
+    font-size: 28pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+span.lightblue{
+    color:#00bfdf;
+}
+span.bold{
+    font-weight: bold;
+}
+#body ul li{
+    margin-bottom: 10px;
+}
+#body ol li{
+    margin-bottom: 10px;
+}
+img.clientserver{
+    margin-left: 120px;
+}
+.infobox{
+    width: 665x;
+    border: 5px;
+    border: 5px solid #0085e0;
+    height: 200px;
+    padding: 5px;
+}
+img.html{
+    margin: 5px;
+}
+.boxtext{
+    width:450px;
+    margin-right: 0px;
+    display: inline-block;
+    position: relative;
+    margin-left: 210px;
+    bottom: 210px;
+}
+.boxtext a{
+    text-decoration: none;
+    color: #0599af;
+
+}
